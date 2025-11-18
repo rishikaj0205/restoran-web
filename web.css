@@ -1,0 +1,913 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.top_main {
+    background-color: black;
+}
+
+.navbar .logo p {
+    color: orange;
+    font-size: 40px;
+}
+
+.navbar.logo {
+    width: 40%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.navbar .nav ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 60%;
+}
+
+.nav span {
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+.low .pic{
+    display: none;
+    font-size: 40px;
+}
+.low .navline{
+    display: none;
+}
+.low .pic{
+    color: orange;
+}
+.navline .cross{
+    display: none;
+}
+.low{
+    display: flex;
+    justify-content: space-between;
+}
+.navline span i{
+    font-size: 40px;
+    color: white;
+}
+.nav-detail ul{
+    list-style-type: none;
+}
+.nav-detail a{
+    text-decoration: none;
+    color: black;
+}
+.nav-detail ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:white;
+}
+.nav-detail{
+    width: 250px;
+}
+.nav li {
+    display: inline;
+}
+.nav a:hover{
+    color: orange;
+}
+.nav a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.but {
+    border: none;
+    font-size: 15px;
+    border-radius: 2px;
+    background-color: orange;
+    color: white;
+    width: 170px;
+    height: 43px;
+}
+
+.but:hover {
+    cursor: pointer;
+}
+
+.top_content {
+    display: grid;
+    grid-template-columns: 48% 42%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+}
+
+.text .head {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+}
+
+.text p {
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.image {
+    margin: 50px 0px 50px 0px;
+    width: 90%;
+    justify-self: center;
+    animation: rotateInfinite 30s ease infinite;
+}
+
+@keyframes rotateInfinite {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.text #butt {
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 16px;
+    height: 63px;
+    width: 220px;
+    margin: 20px 0px 20px 0px;
+}
+
+#butt:hover {
+    cursor: pointer;
+}
+
+/* intro */
+.main-intro {
+    margin: 100px 0px 100px 0px;
+}
+
+.intro {
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 22.5%);
+    gap: 20px;
+    width: 90%;
+}
+
+.intro h3 {
+    font-size: 20px;
+}
+
+.intro p {
+    color: gray;
+    font-size: 17px;
+}
+
+.intro i {
+    font-size: 50px;
+}
+
+.chef {
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box p,
+h1,
+h3 {
+    margin: 20px 0px 20px 0px;
+}
+
+.chef:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.chef:hover p {
+    color: white
+}
+
+.quality {
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.quality:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.quality:hover p {
+    color: white;
+}
+
+.order {
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.order:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.order:hover p {
+    color: white;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.service:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.service:hover p {
+    color: white;
+}
+
+/* about us */
+.main-about {
+    margin: 100px 0px 100px 0px;
+}
+
+.menu_about {
+    width: 90%;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 50% 40%;
+    gap: 20px;
+}
+
+.menu {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 320px 320px;
+}
+
+.abus {
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: orange;
+}
+
+.menu .about1 {
+    width: 320px;
+    height: 320px;
+}
+
+.menu .about2 {
+    width: 220px;
+    height: 220px;
+}
+
+.image1 {
+    align-self: flex-end;
+}
+
+.image2 {
+    justify-self: flex-end;
+}
+
+.aboutus .welcome {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+
+.aboutus .welcome .fork {
+    font-size: 40px;
+}
+
+.aboutus p {
+    font-size: 17px;
+    color: gray;
+    margin: 20px 0px 20px 0px;
+}
+
+.num {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 50% 50%;
+}
+
+.year {
+    display: flex;
+    gap: 10px;
+}
+
+.ex {
+    align-self: center;
+}
+
+.read {
+    background-color: orange;
+    margin: 10px 0px 0px 0px;
+    height: 50px;
+    width: 180px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+}
+
+.no {
+    font-size: 50px;
+    color: orange;
+    border-left: solid 5px;
+}
+
+
+/* .menulist */
+.main-menu {
+    margin: 100px 0px 100px 0px;
+}
+
+.dish {
+    border: none;
+}
+
+.fm {
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu-top .hd {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.menulist {
+    margin: auto;
+    width: 90%;
+}
+
+.menu-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-type {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    margin: auto;
+}
+
+.item-head {
+    display: flex;
+    gap: 10px;
+}
+
+.item-head span {
+    font-size: 30px;
+}
+
+.item-head .tex {
+    align-self: center;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+
+.menu1-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.menu-items1 {
+    align-self: center;
+    justify-self: center;
+}
+
+.menu-items1 hr {
+    margin: 2px 0px 2px 0px;
+}
+
+.menu-items2 hr {
+    margin: 2px 0px 2px 0px;
+}
+
+.item1 {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0px 0px 0px;
+}
+
+.list {
+    align-self: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 350px;
+}
+
+.price p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.price span {
+    color: orange;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+element.style {
+
+    .h4,
+    h4 {
+        font-size: calc(1.275rem + .3vw) !important;
+    }
+}
+
+
+/* image and forms */
+.main-form {
+    margin: 100px 0px 100px 0px;
+}
+
+.image-form {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin: auto;
+    gap: 20px;
+    width: 90%;
+    background-color: black;
+}
+
+.inform .reserve {
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+}
+
+.inform .hed {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.inform {
+    align-self: center;
+    justify-self: center;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
+
+.detail input {
+    height: 50px;
+}
+
+::placeholder {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.request {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.book {
+    background-color: orange;
+    color: white;
+    grid-column: 1/3;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+/* chef and team members  */
+.team {
+    margin: 50px 0px 50px 0px;
+}
+
+.tm {
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+}
+
+.mast {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.mem {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-chef {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+}
+
+.chef-img {
+    clip-path: circle(50%);
+    justify-self: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.main-chef p {
+    text-align: center;
+}
+
+.chef-member {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+}
+
+/* testimonial */
+.test {
+    text-align: center;
+}
+
+.mon {
+    font-size: 20px;
+    color: orange;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+}
+
+.our {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.contain {
+  margin: 0 auto;
+  max-width: 1200px;
+  width:100%;
+  display: flex;
+  margin-top: 50px;
+}
+.guest{
+    line-height: 0.5;
+    align-self: center;
+}
+.item {
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  justify-self: center;
+}
+.item span{
+    font-size: 80px;
+    color: orange;
+}
+.man{
+    clip-path: circle(50%);
+    width: 80px;
+}
+.fle{
+    display: flex;
+}
+/* footer  */
+.footer p {
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 90%;
+    grid-template-columns: repeat(4, 22.5%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.main-footer {
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons span:hover {
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
+.mail {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 60px;
+    border-radius: 2px;
+}
+
+.mail input {
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.mail button {
+    width: 80px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.icons span {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+@media (min-width:769px) and (max-width:1440px){
+    .menu_about{
+        grid-template-columns: 100%;
+    }
+    .navbar .logo p{
+        font-size: 20px;
+    }
+    .navbar .nav ul li{
+        font-size: 15px;
+    }
+    .menu{
+        justify-self: center;
+    }
+    .abus{
+        text-align: center;
+    }
+    .welcome{
+        text-align: center;
+    }
+    .menu-items{
+        grid-template-columns: 100%;
+    }
+    .menu-items1{
+        justify-self: center;
+    }
+    .menu-items2{
+        justify-self: center;
+    }
+    .main-form{
+        width: 100%;
+    }
+    .image-form{
+        grid-template-columns: 50% 50%;
+        gap: 0px;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .demo-img{
+        object-fit: cover;
+    }
+    .main-chef{
+        grid-template-columns: 45% 45%;
+        gap: 20px;
+    }
+    .footer{
+        grid-template-columns: 45% 45%;
+        gap: 20px;
+    }
+    .num{
+        grid-template-columns: 45% 45%;
+    }
+}
+@media (max-width:768px) {
+    .low .pic{
+        display:inline-block;
+    }
+    .low .navline{
+        display: inline-block;
+    }
+    .nav-detail{
+        display: none;
+    }
+    .top_content {
+        grid-template-columns: 80%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .text .head {
+        font-size: 40px;
+        text-align: center;
+    }
+    .note{
+        display: flex;
+        justify-content: center;
+    }
+    .text p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .intro {
+        grid-template-columns: 80%;
+    }
+
+    #butt {
+        margin: auto;
+    }
+
+    .menu img {
+        width: auto;
+    }
+
+    .menu .about1 {
+        width: auto !important;
+        height: 320px;
+    }
+
+    .menu .about2 {
+        width: 100% !important;
+        height:300px;
+    }
+    .image2 {
+        justify-self: start !important;
+    }
+
+    .menu_about {
+        grid-template-columns: 80%;
+        gap: 20px;
+    }
+
+    .menu {
+        grid-template-columns: 100%;
+    }
+    .menu img{
+        object-fit: cover;
+    }
+    .abus {
+        text-align: center;
+    }
+
+    .welcome {
+        text-align: center;
+    }
+    .num{
+        grid-template-columns: 100%;
+    }
+    .read{
+        position: relative;
+        top: 150px;
+    }
+    .menu-top .fm,.hd{
+        text-align: center;
+    }
+    .menu-items {
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+
+    .menu-items1 {
+        justify-self: center;
+        width: 100%;
+    }
+    .price{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .item1{
+        flex-direction: column;
+    }
+    .item1 .menu1-img{
+        align-self: center;
+    }
+
+    .menu-items2 {
+        justify-self: center;
+        width: 100%;
+    }
+    .image-form{
+        grid-template-columns: 100%;
+    }
+    .detail{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      justify-self: center;
+      margin: 0px 0px 10px 0px;
+    }
+    .reserve{
+        text-align: center;
+    }
+    .hed{
+        text-align: center;
+    }
+    .main-chef{
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+    .item{
+        width: 300px;
+    }
+    .footer{
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+    .foot{
+        justify-self: center;
+    }
+    .mail{
+        width: 250px;
+    }
+    .mail input{
+        width: 150px;
+    }
+    .mail button{
+        width: 50px;
+    }
+}
