@@ -617,7 +617,7 @@ element.style {
     align-self: center;
 }
 .item {
-  align-items: center;
+  /* align-items: center; */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color:black;
   display: flex;
@@ -647,7 +647,27 @@ element.style {
     font-weight: 600;
     font-family: 'Pacifico', cursive;
 }
-
+.company{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.opening{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.mail{
+    justify-self: center;
+}
 .footer {
     background-color: black;
     color: white;
@@ -707,11 +727,37 @@ element.style {
     border-style: solid;
     border-width: 1px;
     border-radius: 50%;
-    padding: 5px;
+    padding: 10px;
 }
 
-
-@media (min-width:769px) and (max-width:1440px){
+@media (min-width:1025px) and (max-width:1420px){
+    .menu_about{
+        grid-template-columns: auto auto;
+    }
+    .menu-items{
+        grid-template-columns: auto;
+        width: 80%;
+        justify-content: center;
+    }
+    .image-form{
+        grid-template-columns: 50% auto;
+    }
+    .inform form{
+        width: 100%;
+    }
+    .mail{
+        width: 200px;
+        align-self: center;
+        justify-self: center;
+    }
+    .mail input{
+        width: 100px;
+    }
+    .mail button{
+        width: 50px;
+    }
+}
+@media (min-width:769px) and (max-width:1025px){
     .menu_about{
         grid-template-columns: 100%;
     }
@@ -750,6 +796,9 @@ element.style {
         display: flex;
         flex-direction: column;
     }
+    .detail select{
+        height: 50px;
+    }
     .demo-img{
         object-fit: cover;
     }
@@ -764,7 +813,11 @@ element.style {
     .num{
         grid-template-columns: 45% 45%;
     }
+    .mail{
+        width: 300px;
+    }
 }
+
 @media (max-width:768px) {
     .low .pic{
         display:inline-block;
@@ -881,6 +934,9 @@ element.style {
       justify-self: center;
       margin: 0px 0px 10px 0px;
     }
+    .detail select{
+        height: 50px;
+    }
     .reserve{
         text-align: center;
     }
@@ -894,20 +950,38 @@ element.style {
     .item{
         width: 300px;
     }
+    .company{
+        width: 75%;
+    }
+    .opening{
+        width: 70%;
+    }
     .footer{
         grid-template-columns: 100%;
         gap: 30px;
     }
-    .foot{
-        justify-self: center;
-    }
     .mail{
-        width: 250px;
+        width: 280px;
     }
     .mail input{
         width: 150px;
     }
     .mail button{
-        width: 50px;
+        width: 80px;
     }
+    .inform{
+        width: 120%;
+    }
+    .inform p{
+        width: 250px;
+        justify-self: center;
+    }
+}
+@media (max-width:450px){
+    .main-menu .item-head .tex{
+        display: none;
+    }
+    /* .nav-tabs {
+    --bs-nav-tabs-border-width:none !important;
+    } */
 }
