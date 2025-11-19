@@ -51,42 +51,39 @@ img {
 .nav ul {
     list-style-type: none;
 }
-.low .pic{
-    display: none;
-    font-size: 40px;
-}
-.low .navline{
-    display: none;
-}
-.low .pic{
+.log{
     color: orange;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
 }
-.navline .cross{
+.topnav #kiwi {
+  display: none;
+}
+.topnav{
     display: none;
 }
-.low{
-    display: flex;
-    justify-content: space-between;
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
-.navline span i{
-    font-size: 40px;
-    color: white;
+
+.topnav a.men {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-.nav-detail ul{
-    list-style-type: none;
+.men i{
+    font-size: 25px;
 }
-.nav-detail a{
-    text-decoration: none;
-    color: black;
-}
-.nav-detail ul{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color:white;
-}
-.nav-detail{
-    width: 250px;
+.topnav a:hover {
+  background-color:black;
+  color:white;
 }
 .nav li {
     display: inline;
@@ -828,14 +825,11 @@ element.style {
 }
 
 @media (max-width:768px) {
-    .low .pic{
-        display:inline-block;
+    .log{
+        padding: 10px 0px 0px 0px;
     }
-    .low .navline{
-        display: inline-block;
-    }
-    .nav-detail{
-        display: none;
+    .topnav{
+        display: block;
     }
     .top_content {
         grid-template-columns: 80%;
