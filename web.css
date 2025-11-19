@@ -25,6 +25,7 @@ img {
 .navbar .logo p {
     color: orange;
     font-size: 40px;
+    font-family: 'Pacifico', cursive;
 }
 
 .navbar.logo {
@@ -127,7 +128,7 @@ img {
 .text .head {
     font-size: 60px;
     font-weight: 800;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 
 .text p {
@@ -185,6 +186,7 @@ img {
 
 .intro h3 {
     font-size: 20px;
+    font-family: 'Pacifico', cursive;
 }
 
 .intro p {
@@ -316,6 +318,7 @@ h3 {
     font-size: 40px;
     color: black;
     font-weight: 600;
+    font-family: 'Pacifico', cursive;
 }
 
 .aboutus .welcome .fork {
@@ -381,6 +384,7 @@ h3 {
 .menu-top .hd {
     font-size: 30px;
     font-weight: 800;
+    font-family: 'Pacifico', cursive;
 }
 
 .menulist {
@@ -422,6 +426,7 @@ h3 {
     font-size: 15px;
     color: black;
     font-weight: 500;
+    font-family: 'Pacifico', cursive;
 }
 
 .menu1-img {
@@ -462,6 +467,7 @@ h3 {
 .price p {
     font-weight: 800;
     font-size: 20px;
+    font-family: 'Pacifico', cursive;
 }
 
 .price span {
@@ -504,6 +510,7 @@ element.style {
     color: white;
     font-size: 30px;
     font-weight: 800;
+    font-family: 'Pacifico', cursive;
 }
 
 .inform {
@@ -555,6 +562,7 @@ element.style {
 .mast {
     font-size: 30px;
     font-weight: 800;
+    font-family: 'Pacifico', cursive;
 }
 
 .mem {
@@ -602,6 +610,7 @@ element.style {
 
 .our {
     font-size: 30px;
+    font-family: 'Pacifico', cursive;
     font-weight: 800;
 }
 
