@@ -953,6 +953,9 @@ element.style {
     .item{
         width: 300px;
     }
+    .contact{
+        width: 75%;
+    }
     .company{
         width: 75%;
     }
