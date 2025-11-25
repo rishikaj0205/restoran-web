@@ -267,6 +267,14 @@ h3 {
 .service:hover p {
     color: white;
 }
+.box{
+    transition: transform 0.4s ease;
+}
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
 
 /* about us */
 .main-about {
