@@ -203,13 +203,24 @@ img {
     padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-.box p,
-h1,
-h3 {
+.chef{
+    height: 230px;
+}
+.chef span i{
+    padding: 10px 0px 0px 0px;
+}
+.box span{
+    color: orange;
+}
+.box:hover span{
+    color: white;
+}
+.box{
+    border-radius: 10px;
+}
+.box p,h3 {
     margin: 20px 0px 20px 0px;
 }
-
 .chef:hover {
     background-color: orange;
     color: white;
@@ -433,6 +444,12 @@ h3 {
     width: 80px;
     height: 80px;
     object-fit: cover;
+     transition: transform 0.8s ease;
+    clip-path: circle(50%);
+}
+
+.menu1-img:hover{
+    transform: scaleX(-1);
 }
 
 .menu-items1 {
@@ -586,7 +603,12 @@ element.style {
     justify-self: center;
     margin: 10px 0px 10px 0px;
 }
-
+.chef-img img{
+    transition: transform 0.4s ease;
+}
+.chef-img img:hover{
+    transform: scale(1.2); 
+}
 .main-chef p {
     text-align: center;
 }
@@ -594,6 +616,7 @@ element.style {
 .chef-member {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 30px;
+    border-radius: 20px;
 }
 
 /* testimonial */
